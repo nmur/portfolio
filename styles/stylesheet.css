@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'munroregular';
+    src: url('munro-webfont.woff2') format('woff2'),
+         url('munro-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.announcement { 
+    font-family: 'munroregular', Arial, sans-serif; 
+    font-size: 48px;
+}
+
+.center {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+}
