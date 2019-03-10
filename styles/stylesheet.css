@@ -1,13 +1,22 @@
-.announcement { 
+body {
+    background-color: #002A35;
+}
+
+h1 { 
     font-family: 'Inconsolata', Arial, sans-serif; 
     font-size: 48px;
+    color: #839496;
+}
+
+p { 
+    font-family: 'Inconsolata', Arial, sans-serif; 
+    font-size: 14px;
+    color: #839496;
 }
 
 .center {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    position: fixed;
-    align-items: center;
-    justify-content: center;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    margin: -100px 0 0 -150px;
 }
