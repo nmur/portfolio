@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <title>My test page</title>
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
-    <link rel="stylesheet" href="styles/stylesheet.css" type="text/css" charset="utf-8" />
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet'>
+    <link rel='stylesheet' href='styles/stylesheet.css' type='text/css' charset='utf-8' />
   </head>
   <body>
-    <div class="center">
+    <div class='center'>
       <h1>⌜Nick Murray⌟</h1>
-      <div class="categories">
-        <p>About</p>
+      <div class='categories'>
+        <p onclick='onClickAbout()'>About</p>
         <p>Work</p>
         <p>Skills</p>
       </div>
-      <div class="details">
-        <p>My name is Nicholas Murray.<br><br>I'm primarily a back-end developer with proficiencies in cloud-based microservices, containers, and C#/.NET.<br><br>I'm passionate about Agile software development, TDD, quality automated testing, and CI/CD.</p>
-      </div>
+      <div id='details' class='details'></div>
     </div>
   </body>
 </html>
+
+<script>
+  function onClickAbout() {
+    document.getElementById('details').innerText = `My name is Nicholas Murray.\n\n
+    I'm primarily a back-end developer with proficiencies in cloud-based microservices, containers, and C#/.NET.\n\n
+    I'm passionate about Agile software development, TDD, quality automated testing, and CI/CD.`;
+  }
+</script>
