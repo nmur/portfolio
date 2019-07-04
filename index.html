@@ -6,7 +6,7 @@
     <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet'>
     <link rel='stylesheet' href='styles/stylesheet.css' type='text/css' charset='utf-8' />
   </head>
-  <body>
+  <body onload='onClickAbout()'>
     <div class='center'>
       <h1>⌜Nick Murray⌟</h1>
       <div class='categories'>
@@ -21,8 +21,8 @@
 
 <script>
   function onClickAbout() {
-    document.getElementById('details').innerText = `My name is Nicholas Murray.\n\n
-    I'm primarily a back-end developer with proficiencies in cloud-based microservices, containers, and C#/.NET.\n\n
+    document.getElementById('details').innerText = `My name is Nicholas Murray.\n
+    I'm primarily a back-end developer with proficiencies in cloud-based microservices, containers, and C#/.NET.\n
     I'm passionate about Agile software development, TDD, quality automated testing, and CI/CD.`;
   }
 </script>
