@@ -26,6 +26,10 @@ p {
     float: left;
     padding-left: 7%;
     max-width: 500px;
+    font-family: 'Inconsolata', Arial, sans-serif; 
+    font-size: 18px;
+    color: #839496;
+    margin-block-start: 1em;
 }
 
 .center {
