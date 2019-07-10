@@ -1,5 +1,10 @@
 body {
     background-color: #002A35;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98vw;
+    height: 98vh;
 }
 
 h1 { 
@@ -30,11 +35,4 @@ p {
     font-size: 18px;
     color: #839496;
     margin-block-start: 1em;
-}
-
-.center {
-    position: absolute;
-    top: 45%;
-    left: 45%;
-    margin: -100px 0 0 -150px;
 }
