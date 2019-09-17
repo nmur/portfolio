@@ -29,7 +29,7 @@ p {
 
 .details {
     float: left;
-    padding-left: 7%;
+    border-left: 9%;
     max-width: 500px;
     font-family: 'Inconsolata', Arial, sans-serif; 
     font-size: 18px;
