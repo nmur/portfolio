@@ -8,7 +8,7 @@ body {
 }
 
 h1 { 
-    font-family: 'Inconsolata', Arial, sans-serif; 
+    font-family: 'PT Mono', Arial, sans-serif; 
     font-size: 48px;
     color: #839496;
     min-width: 500px;
@@ -17,7 +17,7 @@ h1 {
 }
 
 p { 
-    font-family: 'Inconsolata', Arial, sans-serif; 
+    font-family: 'PT Mono', Arial, sans-serif; 
     font-size: 18px;
     color: #839496;
 }
@@ -29,9 +29,12 @@ p {
 
 .details {
     float: left;
-    border-left: 9%;
-    max-width: 500px;
-    font-family: 'Inconsolata', Arial, sans-serif; 
+    padding-left: 30px;
+    max-width: 600px;
+    min-width: 600px;
+    max-height: 120px;
+    min-height: 120px;
+    font-family: 'PT Mono', Arial, sans-serif; 
     font-size: 18px;
     color: #839496;
     margin-block-start: 1em;
