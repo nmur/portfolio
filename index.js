@@ -17,7 +17,8 @@ function onClickWork() {
 function onClickProjects() {
   document.getElementById('details').innerHTML = 
   `<a href='https://github.com/nmur/portfolio/' ><span class='project-title'  style=\"color:#cb4b16\">portfolio</span></a> - this page<br><br>  
-  <a href='https://github.com/nmur/nsw-license-plate-lookup/' ><span class='project-title' style=\"color:#cb4b16\">nsw-license-plate-lookup</span></a> - simple API for returning vehicle details for NSW plates`;
+  <a href='https://github.com/nmur/nsw-license-plate-lookup/' ><span class='project-title' style=\"color:#cb4b16\">nsw-license-plate-lookup</span></a> - simple API for returning vehicle details for NSW plates<br>
+  (Try it! <span style=\"color:#268bd2\">GET</span> <a href='https://www.nickmurray.dev/api/plate/ABC123' ><span style=\"color:#859900\">nickmurray.dev/api/plate/ABC123</span></a>)`;
 }
 
 
