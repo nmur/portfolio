@@ -8,10 +8,11 @@
   </head>
   <body onload='onClickAbout()'>
     <div class='center'>
-      <h1>{ Nick Murray }</h1>
-      <div class='categories'>
-        <p onclick='onClickAbout()'>About</p>
-        <p onclick='onClickWork()'>Work</p>
+      <h1 id='header' class='header' >{<br>&nbsp;<span style="color:#268bd2"> nickMurray </span><br>}</h1>
+      <div class='category-list'>
+        <p class='category-title' onclick='onClickAbout()'>About</p>
+        <p class='category-title' onclick='onClickWork()'>Work</p>
+        <p class='category-title' onclick='onClickProjects()'>Projects</p>
       </div>
       <div id='details' class='details'></div>
     </div>
