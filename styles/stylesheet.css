@@ -7,32 +7,48 @@ body {
     height: 98vh;
 }
 
-h1 { 
-    font-family: 'Inconsolata', Arial, sans-serif; 
+.header { 
+    font-family: 'PT Mono', Arial, sans-serif; 
     font-size: 48px;
     color: #839496;
     min-width: 500px;
-    padding-left: 15%;
+    padding-left: 20%;
     padding-right: 15%;
+    padding-bottom: 5%;
 }
 
 p { 
-    font-family: 'Inconsolata', Arial, sans-serif; 
+    font-family: 'PT Mono', Arial, sans-serif; 
     font-size: 18px;
     color: #839496;
 }
 
-.categories {
+.category-list {
     float: left;
     cursor:pointer;
 }
 
+.category-title:hover {
+    color: #859900;
+}
+
 .details {
     float: left;
-    padding-left: 7%;
-    max-width: 500px;
-    font-family: 'Inconsolata', Arial, sans-serif; 
+    padding-left: 60px;
+    max-width: 600px;
+    min-width: 600px;
+    max-height: 120px;
+    min-height: 120px;
+    font-family: 'PT Mono', Arial, sans-serif; 
     font-size: 18px;
     color: #839496;
     margin-block-start: 1em;
+}
+
+.project-title {
+    cursor:pointer;
+}
+
+a {
+    text-decoration:none;
 }
