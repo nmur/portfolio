@@ -18,6 +18,18 @@ body {
     padding-bottom: 5%;
 }
 
+.social-icons {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 3%;
+}
+
+.social-icon {
+    width: 3vw;
+    height: 3vh;
+    cursor: pointer;
+}
+
 p { 
     font-family: 'PT Mono', Arial, sans-serif; 
     font-size: 18px;
@@ -26,7 +38,7 @@ p {
 
 .category-list {
     float: left;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .category-title:hover {
