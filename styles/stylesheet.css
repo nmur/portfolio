@@ -48,6 +48,7 @@ p {
 .details {
     float: left;
     padding-left: 60px;
+    padding-bottom: 30%;
     max-width: 600px;
     min-width: 600px;
     max-height: 120px;
